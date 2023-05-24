@@ -1,0 +1,159 @@
+{
+  "cmds": {
+    "don": {
+      "MESSAGE": "โดเนทงั้นหรอ, คลิกที่ลิงค์นี้ได้เลย!! \nhttps://www.paypal.me/FlaviBot"
+    },
+    "help": {
+      "NAME": "ชื่อ :",
+      "DESCRIPTION": "คำอธิบาย :",
+      "USAGE": "วิธีใช้งาน :",
+      "ALIASES": "คำสั่งย่อย :",
+      "FLAVIBOT": "สิทธิ์การเข้าถึงของบอท :",
+      "MEMBERS": "สิทธิ์การเข้าถึงของผู้ใช้ :",
+      "NO_EXIST": "เหมือนว่าจะไม่มีคำสั่งนี้นะ"
+    },
+    "invite": {
+      "MESSAGE": "นี่ไงวิธีที่จะเพิ่มฉันเข้าไปในเซิฟเวอร์ :"
+    },
+    "ping": {
+      "BOT": "ปิงจาก บอท :",
+      "API": "ปิงจาก API :",
+      "DATABASE": "ปิงจาก Database :"
+    },
+    "shard": {
+      "STATUS": "Shard Status ปัจจุบัน"
+    },
+    "support": {
+      "SUPPORT_INVITE": "เซิฟเวอร์ศูนย์ช่วยเหลือ :"
+    },
+    "uptime": {
+      "UPTIME": "บอทออนไลน์แล้วรวม :"
+    },
+    "vote": {
+      "VOTE": "สำหรับการโหวต, ลิ้งนี้เลย :"
+    },
+    "prefix": {
+      "ERROR_ARGS[0]": "โปรดตั้งคีย์เวิร์ดใหม่ \n\n**คีย์เวิร์ดปัจจุบัน :** `{{actualPrefix}}`",
+      "TOO_LONG": "คีย์เวิร์ดไม่ควรยาวเกินไป   (ความยาวสูงสุด > {{maxPrefixSize}})",
+      "SUCCESS": ":white_check_mark: คีย์เวิร์ดปัจจุบันถูกตั้งเป็น: `{{newPrefix}}` แล้ว"
+    },
+    "bass-boost": {
+      "NO_ARGUMENT": "โปรดระบุค่าการตั้งค่า ! ตัวเลือก:",
+      "SET_TO": "การบูสเบสถูกตั้งเป็น:"
+    },
+    "controller": {
+      "ALREADY_SETUP": "ตัวควบคุมถูกสร้างแล้วที่ช่อง"
+    },
+    "disconnect": {
+      "DISCONNECTED": "Bot disconnect from the channel."
+    },
+    "join": {
+      "ALREADY_CONNECTED": "I am already connected in",
+      "JOINED": "Joined"
+    },
+    "lyrics": {
+      "NO_LYRICS": "No lyrics found for `{{title}}`",
+      "LYRICS_OF": "Lyrics of {{title}}"
+    },
+    "pause": {
+      "ALREADY_PAUSED": "Music already paused !",
+      "PAUSED": "Music paused !"
+    },
+    "play": {
+      "NO_ARGS": "You must indicate the title or link of a music or playlist !"
+    },
+    "resume": {
+      "ALREADY_PLAYING": "The music is already playing !",
+      "PLAYING": "Let the music start again !"
+    },
+    "search": {
+      "NO_MUSIC_FOUND": "You must indicate the title or link of a music or playlist !",
+      "CANCEL_MSG": "Click `Cancel` to cancel the selection.",
+      "CANCEL": "You have cancelled the selection !",
+      "TIME": "You didn't choose any music in time !"
+    },
+    "seek": {
+      "SEEKED": "Seeked song to"
+    },
+    "shuffle": {
+      "SHUFFLED": "Shuffled the queue",
+      "NO_MUSIC": "No music in queue !"
+    },
+    "skip": {
+      "SKIPPED": "Song skipped"
+    },
+    "stop": {
+      "STOPPED": "The player has been successfully stopped."
+    },
+    "tts": {
+      "CONNECT_BEFORE": "Please connect in a voice channel.",
+      "SAME_CHANNEL": "Please connect in the same voice channel as the bot.",
+      "INVALID_ARGUMENT": "Invalid argument !",
+      "MAX_CARACTER": "170 characters maximum !",
+      "BOT_SAY": "The bot will say `{{cleanMessage}}` in voice."
+    },
+    "volume": {
+      "SET_TO": "The volume is now at",
+      "LIMIT": "The volume must be between 1 and 200 !",
+      "ACTUAL": "The volume is :"
+    },
+    "clear-queue": {
+      "QUEUE_CLEARED": "The queue has been cleared."
+    },
+    "say": {
+      "NO_MESSAGE": "Please indicate a message to send."
+    },
+    "snake": {
+      "YOU_RE_DEAD": "You are dead !"
+    },
+    "avatar": {
+      "USER_NOT_FOUND": "User not found !",
+      "AVATAR": "Avatar of **{{userName}}**"
+    },
+    "leaderboard": {
+      "LEADERBOARD": "Here is the link to see the server ranking :"
+    },
+    "rank": {
+      "NO_ROBOT": "The robots do not participate in the level ...",
+      "USER_NOT_CLASSED_1": "This person is not yet classified.",
+      "USER_NOT_CLASSED_2": "Send a few messages before being classified.",
+      "CLASSED": "Vote now for a **15%** boost.",
+      "DISABLED_LEVEL": ":x: Level system disabled go to dashboard and activate the level system"
+    },
+    "user-info": {
+      "USER_INFOS": "User infos",
+      "PSEUDONYM": "Pseudonym :",
+      "ID": "Identifier :",
+      "ACCOUNT_DATE": "Account created on :",
+      "MEMBER_INFOS": "Member info",
+      "ACTIVITY": "Activity :",
+      "STATUS": "Status :",
+      "NICKNAME": "Nickname :",
+      "JOIN_DATE": "Joined the server on :",
+      "ROLE": "Role :"
+    }
+  },
+  "music": {
+    "CURRENT_PLAYING": "Now playing",
+    "DONT_PLAY_MUSIC": "I'm not playing music !",
+    "YOU_JOIN_VOCAL": "You have to be connected in a voice channel before you can use this command !",
+    "SAME_CHANNEL": "You have to be connected in the same channel as FlaviBot !",
+    "NO_MUSIC": "Queue Concluded",
+    "MUSIC_QUEUED": "Music added to the playlist",
+    "SONG_TIME": "Music time",
+    "PLAYLIST_TIME": "Time of the playlist",
+    "TRACKS_SIZE": "Number of songs",
+    "NO_SONG_QUEUE": "There's no song in the queue."
+  },
+  "other": {
+    "FLAVIBOT_MENTION": "Hey I am **FlaviBot** and my prefix is : `{{prefix}}`",
+    "MISSING_BOT_PERMISSION_EMBED": "I do not have permission to send embed. (I need permission to send links/embed.)",
+    "MISSING_BOT_PERMISSION": "I don't have permission : {{perm}}",
+    "MISSING_USER_PERMISSION": "You do not have permission to make `{{usage}}` ! \nYou need the permission `{{perm}}`",
+    "ERROR_COMMAND_MESSAGE": "An error has occurred. You can report this bug to the developers at **[[Support Server]](https://discord.gg/zJyE39J)**.",
+    "USAGE": "Usage :",
+    "ERROR_MESSAGE": "Error !",
+    "USER_NOT_FOUND": "User not found !",
+    "COOLDOWN": "Please don't spam this command !"
+  }
+}
